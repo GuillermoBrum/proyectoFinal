@@ -3,12 +3,33 @@ body {
 }
 
 .nightmode {
-    background-color: #5E9504;
+    background-color: #0C2E01;
     color: #F9FDCB;
+}
+
+.nightmode .menu {
+    color: #F9FDCB
 }
 
 .nightmode .nombre {
     color: #F9FDCB
+}
+
+.nightmode .segmento {
+    color: #F9FDCB
+}
+
+.nightmode .contenido {
+    color: #F9FDCB;
+    border: 2px solid #F9FDCB;
+}
+
+.nightmode .telefono {
+    color: #F9FDCB
+}
+
+.nightmode .numero {
+    color: grey
 }
 
 .padre {
@@ -68,7 +89,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #0C2E01;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -80,13 +101,13 @@ body {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: #F9FDCB;
+    background-color: #0C2E01;
     -webkit-transition: .4s;
     transition: .4s;
 }
 
 input:checked+.slider {
-    background-color: #5E9504;
+    background-color: #F9FDCB;
 }
 
 input:focus+.slider {
@@ -112,12 +133,12 @@ input:checked+.slider:before {
     font-weight: bold;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #5E9504;
+    color: #0C2E01;
 }
 
 .nombre {
     font-weight: bold;
-    color: #5E9504;
+    color: #0C2E01;
     margin: -2px 0 -20px;
     font-size: 45px;
 }
@@ -129,8 +150,6 @@ input:checked+.slider:before {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
-    text-align: center;
 }
 
 .segmento {
@@ -138,13 +157,13 @@ input:checked+.slider:before {
     text-align: left;
     font-weight: bold;
     font-size: 30px;
-    color: #5E9504;
+    color: #0C2E01;
     text-shadow: grey 1px 0 0px;
     margin-left: 61px;
 }
 
 .contenido {
-    border: 2px solid #5E9504;
+    border: 2px solid #0C2E01;
     margin: 60px;
     padding: 16px;
     font-size: 20px;
@@ -179,7 +198,7 @@ input:checked+.slider:before {
     font-weight: bold;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #5E9504;
+    color: #0C2E01;
 }
 
 .numero {
