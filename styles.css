@@ -32,6 +32,10 @@ body {
     color: grey
 }
 
+.nightmode .slider:before {
+    background-color: #0C2E01;
+}
+
 .padre {
     display: flex;
     flex-direction: column;
@@ -101,7 +105,7 @@ body {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: #0C2E01;
+    background-color: #F9FDCB;
     -webkit-transition: .4s;
     transition: .4s;
 }
