@@ -15,19 +15,14 @@
 <body>
     <div>
         <div class="nav">
-            <div>
-                <ul class="bookmark">
-                    <li class="navegacion">
-                        <a href="#aboutme" class="menu">Sobre mí</a>
-                    </li>
-                    <li class="navegacion">
-                        <a href="#skills" class="menu">Estudios y capacitaciones</a>
-                    </li>
-                    <li class="navegacion">
-                        <a href="#yerba" class="menu">Experiencia laboral</a>
-                    </li>
-                </ul>
-            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="#aboutme">Sobre mí</a>
+                <a href="#skills">Estudios y capacitaciones</a>
+                <a href="#yerba">Experiencia laboral</a>
+                <a href="javascript:void(0);" class="icon" onclick="topNav()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
             <div class="checkSwitch">
                 <label id="boton" class="switch">
                     <input onclick="myFunction()" type="checkbox">
